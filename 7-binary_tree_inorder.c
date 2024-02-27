@@ -4,18 +4,18 @@
 /**
  * binary_tree_inorder - in-order traversal
  * @tree: root node of the tree
- * @func: function to call for each node ||passing the node's value as a parameter
+ * @func: function to call each node & passing node's value as a parameter
  * tree or func is NULL, do nothing
  */
 
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
-    if (tree == NULL || func == NULL)
-        return;
+	if (tree == NULL || func == NULL)
+		return;
 
-    binary_tree_inorder(tree->left, func);
+	binary_tree_inorder(tree->left, func);
 
-    func(tree->n);
+	func(tree->n);
 
-    binary_tree_inorder(tree->right, func);
+	binary_tree_inorder(tree->right, func);
 }
