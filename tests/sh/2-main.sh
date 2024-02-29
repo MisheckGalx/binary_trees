@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c ./tests/2-main.c 2-binary_tree_insert_right.c 0-binary_tree_node.c -o ./tests/executables/2-main
