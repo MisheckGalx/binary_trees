@@ -10,7 +10,7 @@ This project, developed by Alexandre Gautier, focuses on building a foundation i
 - Misheck Gogo
 - Brian Musakwa
 
-![ALT TEXT] (https://d14b9ctw0m6fid.cloudfront.net/ugblog/wp-content/uploads/2020/09/Picture1-1.jpg)
+![ALT TEXT](https://d14b9ctw0m6fid.cloudfront.net/ugblog/wp-content/uploads/2020/09/Picture1-1.jpg)
 
 
 ### Learning Objectives
